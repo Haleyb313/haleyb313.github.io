@@ -1,0 +1,124 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haley Baron Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a09a5a77fe.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                <li class="nav__item"><a href="#contactme" class="nav__link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I'm <strong>Haley Baron</strong>
+        </h1>
+        <div class = "section__title section__title--img">
+            <img src="images/AboutMe_cake2.png" alt="" class="intro__img">
+        </div>
+        <div>
+            <div>
+                <p class="section__subtitle section__subtitle--intro">Software Developer, Excel Queen, rock climber, and baking ethusiast</p>
+            </div>
+            <div class="section__title section__title--wrapper">
+                <a href="https://github.com/Haleyb313" class="btn"><i class="fab fa-github"></i> Github</a>
+                <a href="https://www.linkedin.com/in/haleybaron/" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#" class="btn"><i class="fas fa-file-alt"></i> Resume</a>
+                <a href="#" class="btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- My Projects -->
+    <section class="my-projects" id="projects">
+        <h2 class="section__title section__title--projects">My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>RUSH HOUR</h3>
+				<p>Python: Pygame</p>
+				<p>Click and drag car images across a grid to create a path out over the course of three levels.</p>  
+                <div class="project--wrapper">
+                    <a href="https://github.com/Haleyb313/RushHour/blob/main/rh.py" class="btn__project"><i class="fab fa-github"></i> Github</a>
+                </div>
+                <img src="images/RushHour.png" alt="" class="project__img">
+            </div>
+            <div class="project">
+                <h3>CONFORMED SET WEEKLY PDF BUILD</h3>
+				<p>Python: Pandas | VBA</p>
+				<p>Pull the name and location of thousands of architectural drawing PDFs, rename based on new criteria, sort into specific folders, and append into master files based on discipline.</p>  
+                <div class="project--wrapper">
+                    <a href="https://github.com/Haleyb313/Conformed-Set-PDF-Creator/blob/main/main_github.py" class="btn__project"><i class="fab fa-github"></i> Github</a> 
+                </div>
+                <img src="images/ConformedSet.png" alt="" class="project__img">               
+            </div>
+            <div class="project">
+                <h3>RFI / SUBMITTAL WEEKLY REPORT EMAIL</h3>
+				<p>Python: Openpyxl | VBA</p>
+				<p>Open and run Excel macros that save HTML and PDF versions of specific table ranges, then build and send an email that contains those HTML tables within the text body and has the PDFs as attachments.</p>
+                <div class="project--wrapper">
+                    <a href="https://github.com/Haleyb313/RFI_Submittal_Email/blob/main/Email_script_12_GitHub.py" class="btn__project"><i class="fab fa-github"></i> Github</a>
+                </div>
+                <img src="images/RFIEmail.png" alt="" class="project__img"> 
+            </div>
+            <div class="project">
+                <h3>EVENT INTAKE FORM</h3>
+				<p>Google Apps Script</p>
+				<p>Input data into custom form built within Google Sheets and upon submission, populate master data table, populate event calendar, and email client with event information</p>  
+                <img src="images/IntakeForm.png" alt="" class="project__img"> 
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <!-- <p class="section__subtitle section__subtitle--about"></p> -->
+
+        <div class="about-me__body">
+            <p>Hello!  I am a self taught software developer based out of Worcester, MA.  I have always loved solving puzzles and throughout my career I have found myself gravitating towards figuring out how to maximize efficiencies and automate tasks.  After becoming an expert with Excel VBA, I started learning Python and immediately realized that programming was the career path I was meant for.</p>
+        </div>
+
+        <img src="images/profile_pic.png" class="about-me__img">
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">    
+        <a href="mailto:haleyb313@gmail.com" class="footer__link">hello@haley.dev</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Haleyb313">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/haleybaron/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        <p class="designedby">Designed and built by Haley Baron, 2021</p>
+
+    </footer>
+
+
+</body>
+</html>
