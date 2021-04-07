@@ -1,0 +1,103 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        
+    <div>
+        <h1 style="text-align: center;"><strong>HALEY BARON</strong></h1>
+        <p style="text-align: center;">Worcester, MA | https://github.com/Haleyb313</p>       
+        <h3 style="text-align: center;"><strong><u>~~~ SKILLS ~~~</u></strong></h3>
+        <table style="margin-right: auto; margin-left: auto; max-width: 1000px;">
+            <td>   
+                <tr>
+                    <td>
+                        <ul style="width: max-content;">
+                            <li>Knowledge of Software as a Service</li>
+                            <li>Knowledge of Agile, Waterfall, and Lean</li>
+                            <li>Knowledge of Python, JavaScript, MySQL, HTML, CSS</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul style="width: max-content;">
+                            <li>Some knowledge of Google Apps Script</li>
+                            <li>Knowledge of Salesforce, Zendesk, JIRA</li>
+                            <li>High knowledge of Excel VBA</li>
+                        </ul>
+                    </td>
+                </tr>
+            </td>
+        </table>
+
+        <h3 style="text-align: center;"><strong><u>~~~ PROJECTS ~~~</u></strong></h3>
+        <table style="margin-right: auto; margin-left: auto; max-width: 1000px;">
+            <tr>
+                <td>
+                    <p><strong>RUSH HOUR</strong> (Python: Pygame), <strong>Personal project</strong></p>
+                    <ul>
+                        <li>Click and drag car images across a grid to create a path out over the course of three levels.</li>
+                    </ul>
+                    <p><strong>CONFORMED SET WEEKLY PDF BUILD </strong>(Python: Pandas | VBA), <strong>AECOM, Boston, MA</strong></p>
+                    <ul>
+                        <li>Pull the name and location of thousands of architectural drawing PDFs, rename based on new criteria, sort into specific folders, and append into master files based on discipline.</li>
+                    </ul>
+                    <p><strong>RFI / SUBMITTAL WEEKLY REPORT EMAIL </strong>(Python: Openpyxl | VBA), <strong>AECOM, Boston, MA</strong></p>
+                    <ul>
+                        <li>Open and run macros that save HTML and PDF versions of specific table ranges, then build and send an email that contains those HTML tables within the text body and has the PDFs as attachments.</li>
+                    </ul>
+                    <p><strong>EVENT INTAKE FORM</strong> (Google Apps Script), <strong>MetroRock Climbing Gym, Everette, MA</strong></p>
+                    <ul>
+                        <li>Input data into custom form built within Google Sheets and upon submission, populate master data table, populate event calendar, and email client with event information.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h3 style="text-align: center;"><strong><u>~~~ EXPERIENCE ~~~</u></strong></h3>
+        <table style="margin-right: auto; margin-left: auto; max-width: 1000px;">
+            <tr>
+                <td>
+                    <p><strong>PROJECT CONTROLS ANALYST II</strong>, Feb 2018 &ndash; Present | <strong>AECOM, Boston, MA</strong></p>
+                    <ul>
+                        <li>Developed new process using Excel VBA and Python to build weekly Conformed Set PDF files in hours instead of days.</li>
+                        <li>Coordinated with Project Manager to conduct Project Pull Plans using Lean Construction Management in a government-contracting environment.
+                            <ul>
+                                <li>Monitored the project plan to keep in line with the client timeline&rsquo;s expectations.</li>
+                                <li>Presented various tracking reports during weekly planning meetings.</li>
+                                <li>Drove communication with subcontractors to complete tasks on time.</li>
+                                <li>Recorded and shared meeting minutes and action items while attending design review meetings</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><strong>OPERATIONS ANALYST</strong>, Aug 2016 &ndash; Jul 2017 | <strong>Homeworks Energy, Medford, MA</strong></p>
+                    <ul>
+                        <li>Managed project to give field technicians new tablets to collect payments at the customer site.
+                            <ul>
+                                <li>Designed Salesforce payment tracking section and payment results dashboard.</li>
+                                <li>Created Payment Code Designations to track payment types, errors, and average amounts, resulting in the recovery of over $3000 in previously failed transactions.</li>
+                                <li>Built Data Usage Tracking tool to monitor and adjust the Verizon monthly data usage plan, which eliminated the company&rsquo;s average $1000 monthly overage charge.&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li>Managed project to design an entirely new Inventory System for field technician managers within Salesforce, creating an inventory request object with custom fields and validation rules, as well as customized report pages for individuals and teams.</li>
+                    </ul>
+                    <p><strong>CLIENT ENGAGEMENT PROFESSIONAL</strong>, Dec 2014 &ndash; Jan 2016 <strong>| Energysavvy, Cambridge, MA</strong></p>
+                    <ul>
+                        <li>Managed Software as a Service accounts for five clients and coordinated with developers during the entire agile development process, including participating in the daily standup, drafting functional specifications, sprint planning, and feature testing.</li>
+                        <li>Managed Technical Support team by training new members, organizing coverage schedules, streamlining the ticket tracking system, and building monthly progress reports.</li>
+                        <li>Redesigned company-wide client facing Technical Support FAQ Section by writing new articles and building new user guides within Zendesk.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>    
+
+        <h3 style="text-align: center;"><strong><u>~~~ EDUCATION ~~~</u></strong></h3>
+        <table style="margin-right: auto; margin-left: auto; max-width: 1000px;">
+            <tr>
+                <td>
+                    <p><strong>BRANDEIS UNIVERSITY </strong>Bachelor of Arts, History, Minors in Legal Studies and East Asian Studies</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
