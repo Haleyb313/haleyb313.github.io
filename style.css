@@ -35,6 +35,10 @@
 
 /*General styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: linear-gradient(to right, #033801, #009059);
     color: var(--clr-light);
@@ -147,9 +151,9 @@ header {
     background: var(--clr-dark);
     color: var(--clr-light);
     top: 0;
-    bottom: 0;
-    left: 0;
     right: 0;
+    border: 2px solid var(--clr-accent);
+    padding: 40px;
     z-index: 100;
     
     transform: translateX(100%);
@@ -175,11 +179,76 @@ header {
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+    color:var(--clr-accent)
 }
 
+.nav-toggle {
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+}
 
+.nav-toggle:hover {
+    background: var(--clr-hover);
+}
 
+.nav-open .nav {
+    transform: translateX(0)
+}
+
+.nav-open .nav-toggle{
+    position: fixed;
+}
+
+.nav-open .hamburger {
+    transform: rotate(.625turn);
+}
+
+.nav-open .hamburger::after{
+    opacity: 0;
+}
+
+.nav-open .hamburger::before{
+    transform: rotate(90deg) translateX(-6px);
+
+}
+
+.hamburger {
+    display: block;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    background: var(--clr-accent);
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+}
+
+/* .hamburger:hover,
+.hamburger:hover::before,
+.hamburger:hover::after {
+    background: var(--clr-light);
+} */
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.hamburger::before { top: 6px; }
+.hamburger::after { bottom: 6px; }
 
 /* Intro section */
 
@@ -262,7 +331,7 @@ header {
 }
 
 
-@media (min-width: 800px){
+@media (min-width: 1300px){
     .projects {
         display: grid;
         max-width: 1200px;
@@ -293,6 +362,8 @@ header {
     }
 
 }
+
+/* About me */
 
 .about-me{
     max-width: 1000px;
@@ -332,6 +403,73 @@ header {
 
 }
 
+
+/* Contact Me */
+.contact-me{
+    background: var(--clr-dark);
+    border: 2px solid var(--clr-accent);
+    color: var(--clr-accent);
+    line-height: 1.6;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    padding: 1em;
+}
+
+.input-container {
+    padding-top: 1.5em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-family: var(--ff-primary);
+}
+
+.input-section,
+.input-section-full{
+    margin: 0;
+}
+
+.input-label {
+    display: block;
+}
+
+.input-input,
+textarea {
+    background: var(--clr-hover);
+    color:var(--clr-light);
+    font-size: 1em;
+    margin: 0;
+    width: 100%;
+    padding: .25em;
+    font-family: var(--ff-secondary);
+}
+
+.input-section-full{
+    grid-column: 1 / 3;
+}
+
+.input-input:hover,
+.input-input:focus {
+    border: 2px solid var(--clr-accent);
+}
+
+.submit__wrapper {
+    grid-column: 1 / 3;
+    text-align: center;
+    padding-top: 1em;
+} 
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: all 5000s ease-in-out 0s;
+    transition-property: background-color, color;
+}
+
+@media (min-width: 800px){
+}
 /* footer */
 
 .footer {

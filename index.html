@@ -14,13 +14,14 @@
             <img src="" alt="">
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
+            <p class="hamburger"></p>
         </button>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
-                <li class="nav__item"><a href="#contactme" class="nav__link">Contact Me</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Who I Am</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
             </ul>
         </nav>
     </header>
@@ -41,7 +42,7 @@
                 <a href="https://github.com/Haleyb313" class="btn"><i class="fab fa-github"></i> Github</a>
                 <a href="https://www.linkedin.com/in/haleybaron/" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 <a href="#" class="btn"><i class="fas fa-file-alt"></i> Resume</a>
-                <a href="#" class="btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                <a href="#contact" class="btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
             </div>
         </div>
     </section>
@@ -100,9 +101,42 @@
 
     </section>
 
+    <!-- Contact Me -->    
+    <section class="contact-me" id="contact">
+        <h2 class="contact__title">Contact me</h2>
+
+        <form class="input-container"
+            action="https://formspree.io/f/mzbybael"
+            method="POST"
+        >
+            <div class="input-section">
+                <label class="input-label" for="name">Name:</label>
+                <input class="input-input" type="text" name="name" id="full-name"  required/>
+            </div>
+            <div class="input-section">
+                <label class="input-label" for="email" name="_replyto">Email:</label>
+                <input class="input-input" type="email" name="_replyto" id="email-address" required/>
+            </div>
+            <div class="input-section-full">
+                <!-- <label class="input-label" for="subject" name="subject">Subject:</label> -->
+                <input class="input-input" type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </div>
+            <div class="input-section-full">
+                <label class="input-label">Message:</label>
+                <textarea class="input-input" name="message" id="message" rows="5" required></textarea>
+            </div>
+            <div class="submit__wrapper">
+                <!-- <a href="#" class="btn"><i class="fas fa-paper-plane"></i> Send message</a> -->
+                <input class="btn" type="submit" value="Send message">
+                <p class="thanks">Thanks, I'll get back to you soon!</p>
+            </div>
+        </form>
+
+    </section>
+
     <!-- Footer -->
     <footer class="footer">    
-        <a href="mailto:haleyb313@gmail.com" class="footer__link">hello@haley.dev</a>
+        <!-- <a href="mailto:haleyb313@gmail.com" class="footer__link">hello@haley.dev</a> -->
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://github.com/Haleyb313">
@@ -118,6 +152,9 @@
         <p class="designedby">Designed and built by Haley Baron, 2021</p>
 
     </footer>
+
+
+    <script src="index.js"></script>
 
 
 </body>
